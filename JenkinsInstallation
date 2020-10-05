@@ -44,7 +44,27 @@ OpenJDK Runtime Environment (build 1.8.0_252-8u252-b09-1ubuntu1-b09)
 OpenJDK 64-Bit Server VM (build 25.252-b09, mixed mode)
 
 
+# Lets install Jenkins now
+
+- To use this repository, first add the key to your system:
+
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+
+- Then add the following entry in your /etc/apt/sources.list:
+
+sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > \
+    /etc/apt/sources.list.d/jenkins.list'
+
+- Update your local package index, then finally install Jenkins:
+
+sudo apt-get update
+
+sudo apt-get install jenkins
 
 
+// f an error is reported, “jenkins : Depends: daemon but it is not installable”, 
+add the "universe" apt repository of community maintained free and open source software for Ubuntu by executing this command after sudo apt-get update:
+
+sudo add-apt-repository universe
 
 
