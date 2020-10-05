@@ -7,8 +7,6 @@ Fedora
 Red Hat / CentOS
 
 
-
-
 On Debian and Debian-based distributions like Ubuntu you can install Jenkins through apt.
 
 Jenkins requires Java in order to run, yet certain distributions don’t include this by default 
