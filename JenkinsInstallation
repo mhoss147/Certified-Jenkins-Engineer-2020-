@@ -13,7 +13,7 @@ On Debian and Debian-based distributions like Ubuntu you can install Jenkins thr
 
 Jenkins requires Java in order to run, yet certain distributions don’t include this by default and some Java versions are incompatible with Jenkins.
 
-# Installation of Java before Jenkins
+
 
 
 
